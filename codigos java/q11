@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int num = 0;
+        Scanner leia = new Scanner(System.in);
+        while (true) {
+            System.out.print("Digite um número entre 12 e 20: ");
+            num = leia.nextInt();
+
+            if (num >= 12 && num <= 20) {
+                System.out.println(+num);
+                break;
+
+            } else {
+                System.out.println("Entrada inválida. Digite novamente.");
+            }
+        }
+    }
+}
