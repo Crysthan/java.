@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int num = 0;
+        while (num <= 50) {
+            num++;
+            System.out.println(+num);
+            if (num == 50) {
+                break;
+
+            }
+        }
+
+    }
+}
