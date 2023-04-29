@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int n = 0, valtab = 1;
+
+        Scanner leia = new Scanner(System.in);
+
+        System.out.println("inf n");
+        n = leia.nextInt();
+
+        while (valtab <= 10) {
+
+            System.out.println(n + "x" + valtab + "=" + n * valtab);
+            valtab++;
+        }
+    }
+
+}
