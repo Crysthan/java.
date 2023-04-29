@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int num, interv = 0, foradinterv = 0;
+        Scanner leia = new Scanner(System.in);
+        for (int i = 0; i < 20; i++) {
+            System.out.println("Informe 10 numeros");
+            num = leia.nextInt();
+            if (num >= 10 && num <= 20) {
+                interv++;
+            } else {
+                foradinterv++;
+            }
+
+        }
+        System.out.println(" no interv de 10 a 20:" + interv);
+        System.out.println(" fora do interv de 10 a 20:" + foradinterv);
+    }
+}
