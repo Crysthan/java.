@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        int mundo = 0;
+        while (mundo <= 11) {
+            mundo++;
+            System.out.println("hello word");
+            if (mundo == 12) {
+                break;
+
+            }
+        }
+
+    }
+}
